@@ -32,3 +32,7 @@ class CubeMaker extends CuboidMaker {
         super(length, width, height)
     }
 }
+
+const cube = new CubeMaker(1, 1, 1);
+console.log(cube.surfaceArea())
+console.log(cube.volume());
