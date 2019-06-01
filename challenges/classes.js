@@ -34,5 +34,7 @@ class CubeMaker extends CuboidMaker {
 }
 
 const cube = new CubeMaker(1, 1, 1);
-console.log(cube.surfaceArea())
-console.log(cube.volume());
+
+// dont need to make new method since methods already exist in parent 
+console.log(cube.surfaceArea()); //6
+console.log(cube.volume()); //1
