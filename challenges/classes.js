@@ -28,7 +28,7 @@ Find out the formulas for volume and surface area for cubes and create those met
 Test your work by logging out your volume and surface area.*/
 
 class CubeMaker extends CuboidMaker {
-    constructor(obj) {
+    constructor(length, width, height) {
         super(length, width, height)
     }
 }
