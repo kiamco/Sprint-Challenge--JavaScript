@@ -30,26 +30,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    ForEach returns nothing it only iterates array, while map returns values creating a new array. The main difference that they have is that ForEach doesn't need a return 
+
 2. What is the difference between a function and a method?
 
+    a function does not belong to to an object or class. While a method is a member of an object or class
+    
 3. What is closure?
 
+    it is something in javascript where inner functions can access to the outer funcitons variables.
+
 4. Describe the four rules of the 'this' keyword.
+    
+ - when using new `this` refers to that new object. (new binding)
+ - when being used with apply, call, or bind `this` refers to the objects that is passed into the function (explicit binding)
+ - if its called in a method than `this` refers to the object where the method belongs to (implicit binding)
+ - when the `this` is used globally it refers to the window. (global binding)
 
 5. Why do we need super() in an extended class?
+
+    it use to acces the inherited propeties of another class.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
